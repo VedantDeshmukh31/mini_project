@@ -1,0 +1,752 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <!--For responsive		-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title>Medical HTML</title>
+
+      <!--Owl Carousel	-->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      />
+
+      <!--Bootstra CSS	-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='css2/bootstrap.min.css') }}" type="text/css" />
+
+      <!--Custom Style CSS	-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='css2/style.css') }}" type="text/css" />
+    </head>
+
+    <body>
+      <!--Start Header	-->
+      <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="static/images/logo.png" alt="" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#home-section"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services-section">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reviews-section">Reviews</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blog-section">Blog</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#booking-section"
+                      >Book Appointment</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team-section">Developing Team</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!--End Header	-->
+
+      <!--Start Hero Banner	-->
+      <section class="hero-banner" id="home-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="banner-text-wrap">
+                <h1 class="text-white">We Provide Best Medical Services</h1>
+                <p class="text-white">
+                  To try our Machine Learning based <b>Free</b> Body checkups, click on Check Services button !
+                </p>
+                <a href="#services-section" class="btn btn-white"
+                  >Check Services</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Hero Banner	-->
+
+      <!--Start Features Section	-->
+      <section class="features-section">
+        <div class="container">
+          <div class="row gx-0">
+            <div class="col-md-4">
+              <div class="features-box bg1">
+                <img src="static/images/calendar.png" alt="" />
+                <h3>24 Hours Services</h3>
+                <p>
+                  We guarentee a 24 hr website service with maximum accuracy as well as optimum results. Contact us at any hour of the day and we shall revert to you within 8 hours on the clock.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="features-box bg2">
+                <img src="images/staff.png" alt="" />
+                <h3>Professional Developing Team</h3>
+                <p>
+                  We as a developers og the MyDoc website aim at providing free health checkups with . Our developing team comprises of skilled Full Stack Developers.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="features-box bg3">
+                <img src="static/images/ambulance.png" alt="" />
+                <h3>Free Service</h3>
+                <p>
+                  Where an average middle class person spends one-third of his savings in medical checkups and treatments, we aim at reducing this cost by providing free services to all.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Features Section	-->
+
+      <!--	Start About Section-->
+      <section class="about-section" id="about-section">
+        <div class="container">
+          <div class="row gx-5">
+            <div class="col-md-6">
+              <div class="about-media">
+                <img src="static/images/about.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="about-info">
+                <h3>About Us</h3>
+                <p class="lead">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                </p>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a galley
+                  of type and scrambled it to make a type specimen book. It has
+                  survived not only five centuries, but also the leap into
+                  electronic typesetting, remaining essentially unchanged. It was
+                  popularised in the 1960s with the release
+                </p>
+
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a galley
+                  of type and scrambled it to make a type specimen book. It has
+                  survived not only five centuries, but also the leap into
+                  electronic typesetting, remaining essentially unchanged. It was
+                  popularised in the 1960s with the release
+                </p>
+                <a href="#" class="btn btn-primary">Lean More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--	End About Section-->
+
+      <!--Start services Section-->
+      <section class="services-section" id="services-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title text-center">Services</h2>
+            </div>
+
+            <div class="col-md-4">
+              <div class="services-box">
+                <img src="static/images/neurology-icon.png" alt="" />
+                <h3>Brain Tumour</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                </p>
+                <!-- <button onclick="window.location.href='random.html'">
+                  Start Checkup
+                </button> -->
+                <form action="/my-link/">
+                  <input type="submit" value="Click me" />
+                </form>
+              
+              
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="services-box">
+                <img src="static/images/eyecare-icon.png" alt="" />
+                <h3>Eyes care</h3>
+                <a href="pages\neurology.html">Learn more</a>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                </p>
+                <!-- <button onclick="window.location.href='templates/random.html'">
+                  Start Checkup
+                  </button> -->
+                  
+                  <form action="/my-link/">
+                    <input type="submit" value="Click me" />
+                </form>
+                
+                
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="services-box">
+                <img src="static/images/pulmonary-icon.png" alt="" />
+                <h3>Pneumonia</h3>
+                <a href="pages\neurology.html">Learn more</a>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry.
+                </p>
+          <button onclick="window.location.href='Pneumonia.html'">
+          Start Checkup
+          </button>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="services-box">
+                <img src="static/images/cardiology-icon.png" alt="" />
+                <h3>Cardiology</h3>
+                <a href="pages\neurology.html">Learn more</a>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="services-box">
+                <img src="static/images/dental-icon.png" alt="" />
+                <h3>Dental Care</h3>
+                <a href="pages\neurology.html">Learn more</a>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="services-box">
+                <img src="/static/images/hepatology-icon.png" alt="" />
+                <h3>Hepatology</h3>
+                <a href="pages\neurology.html">Learn more</a>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End services Section-->
+
+      <!--Start reviews Section	-->
+      <section class="reviews-section bg-overlay" id="reviews-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title">Customer Reviews</h2>
+            </div>
+
+            <div class="col-md-12">
+              <div class="reviews-slide owl-theme owl-carousel">
+                <div class="item">
+                  <div class="review-box">
+                    <div class="review-media">
+                      <img src="static/images/client1.jpg" alt="" />
+                    </div>
+                    <div class="review-info">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy
+                      </p>
+                      <h4>John Doe</h4>
+                      <h5>Patient of Neuorology</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="review-box">
+                    <div class="review-media">
+                      <img src="static/images/client2.jpg" alt="" />
+                    </div>
+                    <div class="review-info">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy
+                      </p>
+                      <h4>John Doe</h4>
+                      <h5>Patient of Neuorology</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="review-box">
+                    <div class="review-media">
+                      <img src="static/images/client3.jpg" alt="" />
+                    </div>
+                    <div class="review-info">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy
+                      </p>
+                      <h4>John Doe</h4>
+                      <h5>Patient of Neuorology</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End reviews Section	-->
+
+      <!--Start Booking Section-->
+
+      <section class="booking-section bg-overlay" id="booking-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-col">
+                <h4>Make An Appointment</h4>
+                <h3>Get Free Consultation</h3>
+              </div>
+
+              <form
+                action="https://script.google.com/macros/s/AKfycbyKfAzqu-s14VrxbNEE-6c6hTads6T8nimmrntixRBVx_AYdtUqbumQQW173fwA1Tof0Q/exec"
+                method="get"
+              >
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name="subject"
+                        class="form-control"
+                        placeholder="Subject"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <!-- <textarea class="form-control" placeholder="Message"></textarea> -->
+                      <input
+                        type="text"
+                        name="message"
+                        class="form-control"
+                        placeholder="Message"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input
+                        type="submit"
+                        value="Submit"
+                        class="btn btn-primary"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--End Booking Section-->
+
+      <!--Start Blog 	-->
+      <section class="blog-section" id="blog-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title text-center">Blogs and Research Papers</h2>
+            </div>
+
+            <div class="col-md-4">
+              <div class="blog-box">
+                <div class="blog-media">
+                  <iframe src="static/RPs\LUNG_CANCER.pdf" width="100%" height="200px"
+                    >Click here</iframe
+                  >
+                </div>
+                <div class="blog-info">
+                  <h3>
+                    <a href="#"
+                      >Lung Cancer Risk Prediction using Machine Learning
+                    </a>
+                  </h3>
+                  <!-- <iframe src="RPs\LUNG_CANCER.pdf" width="100%" height="300px">Click here</iframe> -->
+
+                  <ul class="meta"></ul>
+                  <p>
+                    Lung cancer prediction using machine learning involves
+                    analyzing patient data to identify patterns and predict the
+                    likelihood of developing lung cancer. This can include factors
+                    such as smoking history, genetics, and environmental
+                    exposures. By training algorithms on large datasets, machine
+                    learning models can help healthcare professionals make more
+                    accurate predictions and improve patient outcomes. Here's a
+                    Research Paper on the basis of this study.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="blog-box">
+                <div class="blog-media">
+                  <iframe
+                    src="static/RPs\Pneumonia_Detection_Using_CNN_based_Feature_Extraction.pdf"
+                    width="100%"
+                    height="200px"
+                    >Click here</iframe
+                  >
+                </div>
+                <div class="blog-info">
+                  <h3>
+                    <a href="#"
+                      >Pneumonia detection using CNN based Feature Extraction
+                    </a>
+                  </h3>
+                  <ul class="meta"></ul>
+                  <p>
+                    The paper titled "Pneumonia detection using Convolutional
+                    Neural Networks: A Deep Learning approach" proposed a novel
+                    CNN-based model for detecting pneumonia. The model used
+                    transfer learning and fine-tuning of a pre-trained CNN for
+                    feature extraction and classification, achieving high
+                    performance on the Chest X-ray dataset. Here's a research
+                    paper on the basis of this study.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="blog-box">
+                <div class="blog-media">
+                  <iframe
+                    src="static/RPs\Brain_Tumour_Detection_ResearchPaper.pdf"
+                    width="100%"
+                    height="200px"
+                    >Click here</iframe
+                  >
+                </div>
+                <div class="blog-info">
+                  <h3>
+                    <a href="#">Brain Tumour Detection using Machine Learning </a>
+                  </h3>
+                  <ul class="meta"></ul>
+                  <p>
+                    The research paper "Brain Tumor Detection Using Machine
+                    Learning Techniques" proposed a machine learning-based
+                    approach for detecting brain tumors. The model used a
+                    combination of wavelet transform and principal component
+                    analysis to extract features from MRI images. The approach
+                    achieved high performance on a dataset of 60 MRI images. Her's
+                    a research paper on the basis of this study.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Blog 	-->
+
+      <!--Start Team Section	-->
+
+      <section class="team-section" id="team-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title text-center">Our Developing Team</h2>
+            </div>
+
+            <div class="col-md-3">
+              <div class="team-box">
+                <div class="team-media">
+                  <img src="static/images\team\1 (2).jpg" alt="" />
+                </div>
+                <div class="team-info">
+                  <h3>Kevin Doshi</h3>
+                  <p>Cardiologist</p>
+                  <ul class="team-social">
+                    <li>
+                      <a href="">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="team-box">
+                <div class="team-media">
+                  <img src="static/images/team/2.jpg" alt="" />
+                </div>
+                <div class="team-info">
+                  <h3>Vedant Deshmukh</h3>
+                  <p>Cardiologist</p>
+                  <ul class="team-social">
+                    <li>
+                      <a href="">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="team-box">
+                <div class="team-media">
+                  <img src="static/images/team/3.jpg" alt="" />
+                </div>
+                <div class="team-info">
+                  <h3>Ameya Dabholkar</h3>
+                  <p>Cardiologist</p>
+                  <ul class="team-social">
+                    <li>
+                      <a href="">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Team Section	-->
+
+      <!--Start Footer	-->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-widget">
+                <h3>Contact Us</h3>
+
+                <ul class="footer-address">
+                  <li>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <div>
+                      <h4>Address</h4>
+                      <p>
+                        33 Lorem Ipsum is simply dummy <br />text of the printing
+                      </p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <div>
+                      <h4>Phone</h4>
+                      <p><a href="tel:+0123456789">+0123456789</a></p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <div>
+                      <h4>Email</h4>
+                      <p><a href="tel:+0123456789">Support@company.com</a></p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="footer-widget">
+                <h3>Services</h3>
+                <ul class="footer-menu">
+                  <li><a href="#"> Neurology </a></li>
+                  <li><a href="#"> Eyes care </a></li>
+                  <li><a href="#"> Pulomonary</a></li>
+                  <li><a href="#"> Cardiology</a></li>
+                  <li><a href="#">Dental Care</a></li>
+                  <li><a href="#">Hepatology</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="footer-widget">
+                <h3>Services</h3>
+                <ul class="footer-menu">
+                  <li><a href="#"> Neurology </a></li>
+                  <li><a href="#"> Eyes care </a></li>
+                  <li><a href="#"> Pulomonary</a></li>
+                  <li><a href="#"> Cardiology</a></li>
+                  <li><a href="#">Dental Care</a></li>
+                  <li><a href="#">Hepatology</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--End Footer	-->
+
+      <!--Script-->
+
+      <script src="static/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+
+      <!--Bootstra JS	-->
+      <script src="static/js/bootstrap.min.js" type="text/javascript"></script>
+
+      <!--Owl Carousel	-->
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        type="text/javascript"
+      ></script>
+
+      <!--Custom JS	-->
+      <script src="static/js/custom.js" type="text/javascript"></script>
+
+      <script>
+        $(".reviews-slide").owlCarousel(
+          {
+          loop: true,
+          margin: 10,
+          nav: false,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
+        });
+      </script>
+    </body>
+  </html>
